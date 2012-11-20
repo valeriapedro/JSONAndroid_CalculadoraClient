@@ -1,0 +1,44 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+    <TableRow >
+    
+    <TextView
+        android:id="@+id/textNum1"
+        android:text="@string/num1"
+        />
+    
+    <EditText 
+        android:id="@+id/num1"
+        android:width="240px"
+        android:inputType="number"
+        android:hint="@string/dica"/>
+        
+    </TableRow>
+    
+    <TableRow >
+    
+    <TextView
+        android:id="@+id/textNum2"
+        android:text="@string/num2"
+        />
+    
+    <EditText 
+        android:id="@+id/num2"
+        android:width="240px"
+        android:inputType="number"
+        android:hint="@string/dica"/>
+    
+    </TableRow>
+    
+    <Button 
+        android:id="@+id/btMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:text="@string/clique"
+        />
+
+</TableLayout>

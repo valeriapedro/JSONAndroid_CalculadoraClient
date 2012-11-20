@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">HelloW</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_hello">Hello World</string>
+    <string name="msg">Android - Aula inicial</string>
+    <string name="clique">Enviar</string>
+    <string name="num1">Numero 1:</string>
+    <string name="num2">Numero 2:</string>
+    <string name="dica">Digite um numero</string>
+    <string name="url_ws">http://10.0.2.2:8080/jersey/teste/somar</string>
+
+</resources>
